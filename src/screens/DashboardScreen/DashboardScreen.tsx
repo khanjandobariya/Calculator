@@ -89,7 +89,7 @@ const DashboardScreen = () => {
    * This funcation is used for calculate the percentage of given input
    */
   const onPressPercentage = () => {
-    if (firstNumber.current && lastNumber.current) {
+    if (firstNumber.current) {
       setFirstNumber(`${parseFloat(firstNumber.current) * 0.01}`);
     }
   };
