@@ -184,6 +184,8 @@ const DashboardScreen = () => {
             isSelected={lastSelectedVal.current === '+'}
           />
         </View>
+
+        {/* ----- 5th row of buttons ----- */}
         <View style={styles.rowContainer}>
           <Button
             label="0"
